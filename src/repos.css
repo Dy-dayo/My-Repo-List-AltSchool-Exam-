@@ -1,0 +1,100 @@
+body{
+    background:rgb(182, 224, 206);;
+    margin: 0%;
+    /* width: 100%; */
+ 
+}
+
+main{
+    background-color: rgb(182, 224, 206);;
+    width: 800px;
+    margin-left: 10px;
+    font-family: 'Poppins';
+    color: #00203fff;
+    /* display: flex;
+    flex-direction: column; */
+}
+a{
+    color: #00203fff;
+}
+a:hover{
+    color: #00203fff;
+    font-weight: bold;
+}
+/* .details{
+    font-size: large;
+} */
+
+.repos{
+    border: 3px solid #00203fff;
+    margin-top:30px ;
+    border-radius: 15px;
+    /* width: 600px; */
+    height: 150px;
+    text-align: center;
+
+}
+.navbar{
+    display: flex;
+    background: #00203fff;
+    align-items: center;
+    padding: 12px;
+}
+
+.navbar> .link{
+    color:  rgb(182, 224, 206);;
+    margin-left: 15px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+.navbar> .link:hover{
+    color: aqua;
+}
+.navbar >#profile-Pic{
+    width: 60px;
+    height: 80%;
+}
+
+.navbar> h1{
+    margin:5px auto;
+    color:  rgb(182, 224, 206);;
+}
+.repos > h3{
+    font-size: 25px;
+    font-family: 'inter';
+}
+.mainPage > p{
+    /* width: 200px; */
+    height: 40px;
+    cursor: pointer;
+    font-family: 'inter';
+    text-decoration: underline;
+}
+.mainPage{
+    font-family: 'inter';
+}
+
+.paginate > button{
+    width: 120px;
+    height: 36px;
+    border-radius: 8px;
+    font-family: 'inter';
+    border: none;
+    margin: 12px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background: #00203fff;
+    color:  rgb(182, 224, 206);;
+    cursor: pointer;
+}
+.paginate> button:hover{
+    background: rgba(18, 13, 69, 0.996);
+}
+.footer{
+    
+    margin-top: 300px;
+    padding: 8px;
+    background-color:rgb(0, 31, 63); ;
+    color:  rgb(182, 224, 206);
+    text-align: center;
+}
