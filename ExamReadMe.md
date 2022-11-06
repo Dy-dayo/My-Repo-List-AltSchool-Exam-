@@ -2,7 +2,7 @@
 ## Ojo Oladayo
 ### My email is Ojooladayo012@gmail.com
 
-[Exam Link](https://first-host-21f94.web.app/) for the work hosted with firebase.
+[Exam Link](https://first-host-21f94.web.app/) for the web page hosted with firebase.
 
 ### About Exam
 - The Home page is the main page for the repo overview.
