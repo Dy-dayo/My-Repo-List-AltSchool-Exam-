@@ -11,8 +11,6 @@ import TrollFace from './Troll Face.png'
 import Footer from "./Footer";
 
 
-
-
 export default function Repos() {
 
     let [repos, setRepos] = useState(() => JSON.parse(localStorage.getItem("theResults")) || [])

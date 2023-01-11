@@ -1,6 +1,10 @@
+*{
+  box-sizing:border-box;
+}
 body{
     background:rgb(182, 224, 206);;
-    margin: 0%;
+    margin: 0;
+    font-family: 'Poppins';
     /* width: 100%; */
  
 }
@@ -8,11 +12,9 @@ body{
 main{
     background-color: rgb(182, 224, 206);;
     width: 800px;
-    margin-left: 10px;
-    font-family: 'Poppins';
+    padding:0px 5px;
     color: #00203fff;
-    /* display: flex;
-    flex-direction: column; */
+    margin:0 auto;
 }
 a{
     color: #00203fff;
@@ -27,10 +29,8 @@ a:hover{
 
 .repos{
     border: 3px solid #00203fff;
-    margin-top:30px ;
+    margin-top:20px ;
     border-radius: 15px;
-    /* width: 600px; */
-    height: 150px;
     text-align: center;
 
 }
@@ -50,9 +50,10 @@ a:hover{
 .navbar> .link:hover{
     color: aqua;
 }
-.navbar >#profile-Pic{
+.navbar > .profile-Pic{
     width: 60px;
     height: 80%;
+   
 }
 
 .navbar> h1{
@@ -92,9 +93,44 @@ a:hover{
 }
 .footer{
     
-    margin-top: 300px;
+    margin-top:10vh;
     padding: 8px;
     background-color:rgb(0, 31, 63); ;
     color:  rgb(182, 224, 206);
     text-align: center;
+}
+@media(max-width:500px){
+  body{
+/*     height:100vh; */
+  }
+  main{
+    width:98%;
+  }
+  .navbar{
+/*     padding:2px; */
+    display:flex;
+    flex-wrap:wrap;
+    
+  }
+  .navbar> h1{
+    order:-1;
+    margin:0;
+    font-size:1.2rem;
+  }
+  .repos{
+    margin-top:.8em;
+/*     padding:1em; */
+  }
+  .navbar >.profile-Pic{
+    display:block;
+    margin-left:auto;
+  }
+  h1,h2,p,h3,h4{
+    margin:.4em;
+    line-height:1.35em;
+  }
+  h1{
+    font-size:1.8rem;
+  }
+  
 }
